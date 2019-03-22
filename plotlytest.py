@@ -1,3 +1,4 @@
+import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
@@ -514,4 +515,4 @@ def update_occupation_graph(n_clicks, posts_ticker_cont):
     return occupation_figure
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
