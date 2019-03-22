@@ -8,8 +8,9 @@ import pandas as pd
 import plotly.plotly as py
 import plotly.graph_objs as go
 
-server = app:server
+
 app = dash.Dash()
+server = app:server
 
 df_family = pd.read_excel('excels/elstat/formated oikogeneiaki katastasi.xlsx')
 df_education = pd.read_excel('excels/elstat/formated epipedo ekpaideusis.xlsx')
