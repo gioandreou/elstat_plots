@@ -3,3 +3,4 @@ A Plotly app that shows the demographic informations of Greece in a interactive 
 All Data were collected in 2011 and stored in excel files,so the user can anytime check infos by himself.
 By the choices of user Graphs are interactively modified
 
+App is deployed at https://andreou-elstat.herokuapp.com/
