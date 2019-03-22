@@ -8,7 +8,7 @@ import pandas as pd
 import plotly.plotly as py
 import plotly.graph_objs as go
 
-
+server = app:server
 app = dash.Dash()
 
 df_family = pd.read_excel('excels/elstat/formated oikogeneiaki katastasi.xlsx')
